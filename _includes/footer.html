@@ -1,0 +1,28 @@
+<!-- _includes/footer.html -->
+<footer class="main-footer">
+	<div class="contaiter">
+
+		<nav class="main-menu footer-menu">
+{% include /main-menu.html %}
+		</nav>
+
+		<nav class="soc">
+			<ul>
+{{ site.soc }}
+			</ul>
+		</nav>
+
+	</div>
+</footer>
+<footer class="bottom-footer">
+	<div class="container text-center">
+		<div class="footer-copy">{{ site.time | date : '%Y' }} © <span class="logo-footer logo-litera">GeekTOP.ru</span></div>
+		<p>{{ site.copyright }}</p>
+	</div>
+</footer>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
+<!-- _includes/footer.html END -->
